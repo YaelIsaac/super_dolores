@@ -76,7 +76,3 @@ Pruebas: inicio, monedero, chat, tienda, viajes y métricas.
 ### Métricas de retención
 
 <img width="300" height="650" alt="WhatsApp Image 2026-11-20 at 14 06 01 (2)" src="https://github.com/user-attachments/assets/a32a9e09-85a8-4ddf-a31a-b39d17bf31a7" />
-
-## Conclusión
-
-Con TDD cada regla de la SuperApp nació de una prueba que primero falló: el dinero nunca se crea ni se pierde (la suma total del sistema no cambia), un doble toque no cobra dos veces, las comisiones se reparten exacto al centavo y los puntos de lealtad premian el uso real, no cualquier clic. Las capturas de fallo demuestran que las pruebas sí detectan errores. Como el dominio es Dart puro, los 104 casos se prueban en segundos sin servidor, y las métricas de retención se calculan con definiciones claras para no engañarse con los números.
